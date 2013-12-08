@@ -14,10 +14,10 @@ Based heavily on [John Resig's micro-templating](http://ejohn.org/blog/javascrip
 var mtmpl = require("mtmpl");
 
 // 'Hello, my name is John!'
-var html = mtmpl.mtmpl("Hello, my name is <%=name%>!",{name:"John"});
+var html = mtmpl.mtmpl("Hello, my name is <%=data.name%>!",{name:"John"});
 
 // A reusable template function.
-var tmplFunc = mtmpl.mtmpl("Hello, my name is <%=name%>!");
+var tmplFunc = mtmpl.mtmpl("Hello, my name is <%=data.name%>!");
 
 // 'Hello, my name is Bob!'
 var html1 = tmplFunc({name:"Bob"});
@@ -26,7 +26,7 @@ var html1 = tmplFunc({name:"Bob"});
 var html2 = tmplFunc({name:"Jim"})
 
 // A reusable template function as a string.
-var precompiled = mtmpl.precompile("Hello, my name is <%=name%>!");
+var precompiled = mtmpl.precompile("Hello, my name is <%=data.name%>!");
 ````
 
 ## Tests [![Build Status](https://travis-ci.org/theakman2/node-modules-mtmpl.png?branch=master)](https://travis-ci.org/theakman2/node-modules-mtmpl)

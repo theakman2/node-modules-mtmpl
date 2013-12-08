@@ -5,7 +5,7 @@ var test = require("tap").test;
 var mtmpl = require("../lib/index.js");
 
 test("mtmpl",function(t){
-	var str = "My name is <%=name%>.";
+	var str = "My name is <%=data.name%>.";
 	var tmplFn = mtmpl.mtmpl(str);
 	var precompiled = mtmpl.precompile(str);
 	var context = {
