@@ -1,0 +1,26 @@
+{
+  "name": "mtmpl",
+  "author": {
+    "name": "A Kazim"
+  },
+  "description": "Javascript micro-templating for NodeJS.",
+  "keywords": [
+    "template",
+    "templating",
+    "micro",
+    "mtmpl"
+  ],
+  "version": "0.1.0",
+  "devDependencies": {
+    "tap": "0.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theakman2/node-modules-mtmpl.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "license": "MIT"
+}
