@@ -6,7 +6,7 @@
   "description": "Javascript micro-templating for NodeJS.",
   "keywords": [
     "micro",
-    "mtmpl"
+    "mtmpl",
     "template",
     "templating"
   ],
