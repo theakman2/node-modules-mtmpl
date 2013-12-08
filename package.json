@@ -5,10 +5,10 @@
   },
   "description": "Javascript micro-templating for NodeJS.",
   "keywords": [
-    "template",
-    "templating",
     "micro",
     "mtmpl"
+    "template",
+    "templating"
   ],
   "version": "0.1.0",
   "devDependencies": {
