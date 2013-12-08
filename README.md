@@ -23,7 +23,7 @@ var tmplFunc = mtmpl.mtmpl("Hello, my name is <%=name%>!");
 var html1 = tmplFunc({name:"Bob"});
 
 // 'Hello, my name is Jim!'
-var html2 = tmplFun({name:"Jim"})
+var html2 = tmplFunc({name:"Jim"})
 
 // A reusable template function as a string.
 var precompiled = mtmpl.precompile("Hello, my name is <%=name%>!");
